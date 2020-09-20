@@ -15,6 +15,11 @@ class ACTIONROGUELIKE_API ASCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+protected:
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> ProjectileClass;
+
 public:
 	// Sets default values for this character's properties
 	ASCharacter();
@@ -32,6 +37,13 @@ protected:
 
 	void MoveForward(float Value);
 
+<<<<<<< HEAD
+=======
+	void MoveRight(float Value);
+
+	void PrimaryAttack();
+
+>>>>>>> 0fbf4e0 (Lecture 3 in-class code.)
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
