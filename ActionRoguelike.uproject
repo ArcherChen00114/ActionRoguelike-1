@@ -8,6 +8,7 @@
 			"Name": "ActionRoguelike",
 			"Type": "Runtime",
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
@@ -379,6 +380,9 @@
 		{
 			"Name": "UdpMessaging",
 			"Enabled": false
+=======
+			"LoadingPhase": "Default"
+>>>>>>> parent of 81b5356 (Added SCharacter & Setup Input)
 		}
 	]
 }
